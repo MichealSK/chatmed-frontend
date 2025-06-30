@@ -1,19 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import '../bootstrap/css/bootstrap.css';
-import {ResponsiveContainer} from "recharts";
 import ProgressBar from "./ProgressBar";
 
-interface FeedbackResponse {
+interface InsightResponse {
     title: string;
     percentage: number;
 }
 
 interface TaskInsightsResponse {
-    taskFeedbackResponse: FeedbackResponse[]
+    taskInsightsResponse: InsightResponse[]
 }
 
 const TaskInsightsCard: React.FC<TaskInsightsResponse> = ({
-    taskFeedbackResponse
+    taskInsightsResponse
 }) => {
 
     return (
@@ -32,12 +31,10 @@ const TaskInsightsCard: React.FC<TaskInsightsResponse> = ({
                     width: '100%',
                 }}>
                     <div className="space-y-4">
-                        {taskFeedbackResponse.map((task) => (
+                        {taskInsightsResponse.map((task) => (
                             <div>
                                 <div className={"flex flex-col col col-10"}>
-                                    <ProgressBar label={task.title} percentage={task.percentage} color={
-                                        task.percentage < 33 ? "#780d0d" :
-                                        task.percentage < 67 ? "#827e02" : "#08272d"}></ProgressBar>
+                                    <ProgressBar label={task.title} percentage={task.percentage}></ProgressBar>
                                 </div>
                             </div>
                         ))}

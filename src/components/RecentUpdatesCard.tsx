@@ -1,9 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import '../bootstrap/css/bootstrap.css';
-import {ResponsiveContainer} from "recharts";
-import TaskDetailsRow from "./TaskDetailsRow";
-import TaskDetailsItemList from "./TaskDetailsItemList";
-import ProgressBar from "./ProgressBar";
 import WorkspaceRow from "./WorkspaceRow";
 
 interface RecentUpdateObj {

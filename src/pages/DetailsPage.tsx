@@ -1,6 +1,5 @@
 import React, {JSX} from "react";
 import NavigationBar from "../components/NavigationBar";
-import ProgressOverviewCard from "../components/ProgressOverviewCard";
 import TaskDetailsCard from "../components/TaskDetailsCard";
 
 import taskDetailsResponse from "../data/tasks-details-response.json";
@@ -14,7 +13,7 @@ export default function App(): JSX.Element {
             maxWidth: '2000px',
             boxSizing: "border-box",
         }}>
-            <NavigationBar navbarButtonDisplay={[true, true, false]}/>
+            <NavigationBar navbarButtonDisplay={[true, true, true]}/>
 
             <div className={"flex flex-row row justify-content-between mt-3"}>
                 <RecentUpdatesCard recentUpdatesResponse={workspaceUpdatesResponse}/>

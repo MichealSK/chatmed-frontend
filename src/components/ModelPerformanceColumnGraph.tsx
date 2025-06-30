@@ -30,10 +30,8 @@ const WorkspaceOverviewCard: React.FC<LLMStatisticGraphProps> = ({
 }) => {
     const [response, setResponse] = useState<LLMStatisticResponse | null>(null);
     const [graphData, setGraphData] = useState<BenchmarkData[]>([]);
-    // const workOverviewResponse = workspaceOverviewResponse as WorkflowOverviewResponse
 
     useEffect(() => {
-        // In a real scenario you would fetch via API
         setResponse(llmResponse as LLMStatisticResponse);
 
     }, []);

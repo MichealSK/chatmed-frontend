@@ -3,7 +3,7 @@ import '../bootstrap/css/bootstrap.css';
 import {ResponsiveContainer} from "recharts";
 import ProgressBar from "./ProgressBar";
 
-interface FeedbackResponse {
+interface ProgressOverviewResponse {
     id: number,
     username: string,
     percent: number
@@ -13,12 +13,9 @@ const handleViewDetailsClick = (taskId: number) => {
     console.log(`View Details for ${taskId}`);
 };
 
-const ProgressOverviewCard: React.FC<FeedbackResponse> = ({
+const ProgressOverviewCard: React.FC<ProgressOverviewResponse> = ({
     id, username, percent
 }) => {
-    const color = percent < 33 ? "#780d0d" :
-        percent < 67 ? "#827e02" :
-            "#08272d"
 
     return (
         <div className={"flex flex-column col-5 p-5 m-3"} style={{
@@ -38,7 +35,7 @@ const ProgressOverviewCard: React.FC<FeedbackResponse> = ({
                     <div className="space-y-4">
                         <div>
                             <div className={"flex flex-col col col-10"}>
-                                <ProgressBar label={"Progress:"} percentage={percent} color={color}></ProgressBar>
+                                <ProgressBar label={"Progress:"} percentage={percent}></ProgressBar>
                             </div>
                         </div>
                     </div>

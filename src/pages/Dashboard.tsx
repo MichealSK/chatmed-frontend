@@ -51,7 +51,7 @@ export default function App(): JSX.Element {
             </div>
             <div className={"flex flex-row row justify-content-between mt-3"}>
                 <TaskFeedbackCard taskFeedbackResponse={tasksFeedbackResponse}/>
-                <TaskInsightsCard taskFeedbackResponse={tasksInsightResponse}/>
+                <TaskInsightsCard taskInsightsResponse={tasksInsightResponse}/>
                 <HelpCard/>
             </div>
 
