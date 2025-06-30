@@ -1,0 +1,3 @@
+{
+  "llms": ["gemma-3-4b-pt", "VezilikaLLM", "domestic-yak-8B", "MKLLM-7B"]
+}

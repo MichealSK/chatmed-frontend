@@ -1,0 +1,17 @@
+[
+  {
+    "icon": "icons/task-creation.PNG",
+    "title": "Task Creation Analyis",
+    "text": "Task Accomplishments Review"
+  },
+  {
+    "icon": "icons/workspace-overview.PNG",
+    "title": "Workspace Overview",
+    "text": "Employee Wellness Check-In"
+  },
+  {
+    "icon": "icons/task-operations.PNG",
+    "title": "Task Operations",
+    "text": "Mission and Leadership Vision"
+  }
+]

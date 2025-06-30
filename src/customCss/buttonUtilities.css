@@ -1,0 +1,31 @@
+.button-hover-white {
+    background-color: initial;
+    transition: background-color 0.2s ease;
+}
+
+.button-hover-white:hover {
+    background-color: white;
+}
+
+.button-hover-help {
+    color: white;
+    font-size: 20px;
+    background-color: #08272d;
+    transition: background-color 0.2s ease;
+}
+
+.button-hover-help:hover {
+    color: black;
+    background-color: white;
+}
+
+.button-hover-danger {
+    color: white;
+    font-size: 20px;
+    background-color: #791a1a;
+    transition: background-color 0.2s ease;
+}
+
+.button-hover-danger:hover {
+    background-color: #ff0000;
+}

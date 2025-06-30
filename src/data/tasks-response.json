@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "Task 1", "imageUrl": "icons/tasks/1.PNG" },
+  { "id": 2, "name": "Task 2", "imageUrl": "icons/tasks/2.PNG" },
+  { "id": 3, "name": "Task 3", "imageUrl": "icons/tasks/3.PNG" }
+]

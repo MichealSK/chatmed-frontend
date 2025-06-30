@@ -1,0 +1,32 @@
+[
+  {
+    "workspaceId": 0,
+    "workspaceTitle": "Workspace 1",
+    "crossedOut": false,
+    "icon": "/icons/tasks/1.PNG"
+  },
+  {
+    "workspaceId": 1,
+    "workspaceTitle": "Workspace 2",
+    "crossedOut": true,
+    "icon": "/icons/tasks/2.PNG"
+  },
+  {
+    "workspaceId": 2,
+    "workspaceTitle": "Workspace 3",
+    "crossedOut": true,
+    "icon": "/icons/tasks/3.PNG"
+  },
+  {
+    "workspaceId": 3,
+    "workspaceTitle": "Workspace 4",
+    "crossedOut": false,
+    "icon": "/icons/tasks/4.PNG"
+  },
+  {
+    "workspaceId": 4,
+    "workspaceTitle": "Workspace 5",
+    "crossedOut": false,
+    "icon": "/icons/tasks/5.PNG"
+  }
+]

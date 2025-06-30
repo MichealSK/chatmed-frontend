@@ -1,0 +1,29 @@
+{
+  "overallScore": 8.2,
+  "metrics": [
+    {
+      "id": "time_constraints",
+      "icon": "icons/time-constraints.PNG",
+      "label": "Time Constraints",
+      "score": 9.0
+    },
+    {
+      "id": "difficulty",
+      "icon": "icons/difficulty.PNG",
+      "label": "Difficulty",
+      "score": 7.8
+    },
+    {
+      "id": "specificity",
+      "icon": "icons/specificity.PNG",
+      "label": "Specificity",
+      "score": 8.3
+    },
+    {
+      "id": "collaboration",
+      "icon": "icons/collaboration.PNG",
+      "label": "Collaboration",
+      "score": 7.7
+    }
+  ]
+}

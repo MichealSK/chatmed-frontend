@@ -1,0 +1,37 @@
+[
+  {
+    "id": 0,
+    "username": "Bella Smith",
+    "percent": 80
+  },
+  {
+    "id": 1,
+    "username": "Michael Brown",
+    "percent": 60
+  },
+  {
+    "id": 2,
+    "username": "Emily Johnson",
+    "percent": 30
+  },
+  {
+    "id": 3,
+    "username": "Jim Morrison",
+    "percent": 90
+  },
+  {
+    "id": 4,
+    "username": "Freddie Mercury",
+    "percent": 40
+  },
+  {
+    "id": 5,
+    "username": "Ayda Gunay",
+    "percent": 10
+  },
+  {
+    "id": 6,
+    "username": "David Bowie",
+    "percent": 32
+  }
+]
